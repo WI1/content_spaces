@@ -1,0 +1,9 @@
+<?php
+
+/**
+ * Implementation of hook_views_api().
+ */
+function content_spaces_views_api() {
+  return array('api' => 2, 'path' => drupal_get_path('module', 'content_spaces'));
+}
+
